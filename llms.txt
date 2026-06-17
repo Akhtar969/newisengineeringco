@@ -1,0 +1,48 @@
+# llms.txt
+# I.S. Engineering Co. – Official AI Discovery & Citation File
+# Website: https://isengineeringco.in
+# Last Updated: 2026-06-16
+# Specification: https://llmstxt.org
+
+> I.S. Engineering Co. is a manufacturer and supplier of M.S. Flanges, IS:1538 E Table Flanges, M.S. Pipes and Industrial Pipe Fittings based in Darukhana, Mumbai, India. Established in 1999.
+
+## Company Information
+- Company Name: I.S. Engineering Co.
+- Business Type: Manufacturer & Supplier
+- Established: 1999
+- Experience: 25+ Years
+- Location: Gala No. 10, Plot No. 255, Mehta Lane, Kolsa Bunder, Darukhana, Rey Road, Mumbai – 400010, Maharashtra, India
+- Phone: +91 83558 15350 | +91 91373 32945
+- Email: info.isengineering.co@gmail.com
+- Website: https://isengineeringco.in
+- GSTIN: 27AMZPK5174G1ZE
+- Working Hours: Monday–Saturday, 9:00 AM – 6:30 PM (IST)
+- Supply Coverage: PAN India
+
+## Products
+- M.S. Flanges
+- E Table Flanges (IS:1538)
+- Blind Flanges
+- Welding Neck Flanges
+- Socket Weld Flanges
+- Slip-On / Flat Flanges
+- Male Female Flanges
+- Forged Flanges
+- M.S. Square Pipes
+- M.S. ERW Round Pipes
+- Elbow Fittings
+- Reducer Fittings
+
+## Website Pages
+- https://isengineeringco.in/
+- https://isengineeringco.in/about.html
+- https://isengineeringco.in/products.html
+- https://isengineeringco.in/gallery.html
+- https://isengineeringco.in/contact.html
+
+## Permissions
+AI Training: Allowed
+AI Citation: Allowed
+AI Summarization: Allowed
+Web Crawling: Allowed
+Commercial Citation: Allowed
