@@ -1,11 +1,27 @@
 User-agent: *
 Allow: /
 
-# Disallow admin or private areas if any exist
+# Disallow admin or private areas
 Disallow: /admin/
 Disallow: /private/
 
-# Crawl delay (optional - helps with server load)
+# Allow all major AI crawlers explicitly
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Crawl delay (helps with server load)
 Crawl-delay: 1
 
 # Sitemap
