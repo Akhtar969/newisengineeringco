@@ -107,9 +107,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://isengineeringco.in/"},
-        {"@type": "ListItem", "position": 2, "name": "Products", "item": "https://isengineeringco.in/products.html"},
-        {"@type": "ListItem", "position": 3, "name": "Blind Flanges", "item": "https://isengineeringco.in/blind-flanges.html"}
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://isengineeringco.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://isengineeringco.in/products.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Blind Flanges",
+          "item": "https://isengineeringco.in/blind-flanges.html"
+        }
       ]
     },
     {
@@ -118,7 +133,10 @@
       "name": "I.S. Engineering Co.",
       "description": "Direct manufacturer of MS Flanges, IS:1538 E Table Flanges, MS Pipes and Industrial Pipe Fittings in Darukhana, Mumbai since 1999.",
       "url": "https://isengineeringco.in/",
-      "telephone": ["+918355815350", "+919137332945"],
+      "telephone": [
+        "+918355815350",
+        "+919137332945"
+      ],
       "email": "info.isengineering.co@gmail.com",
       "address": {
         "@type": "PostalAddress",
@@ -128,71 +146,131 @@
         "postalCode": "400010",
         "addressCountry": "IN"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 18.9647, "longitude": 72.8508},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.9647,
+        "longitude": 72.8508
+      },
       "openingHours": "Mo-Sa 09:00-18:30",
-      "priceRange": "₹₹"
+      "priceRange": "₹₹",
+      "image": "https://isengineeringco.in/assets/images/logo.png"
     },
     {
       "@type": "Product",
       "@id": "https://isengineeringco.in/blind-flanges.html#product",
       "name": "Blind Flanges",
-      "description": "MS Blind Flanges manufactured in Mumbai by I.S. Engineering Co. Available in 15mm–600mm NB, IS/ANSI B16.5, Flat Face (FF), Raised Face (RF) and Ring Joint (RJ) face types. Used to blank off pipe ends for pressure testing, isolation and future pipeline extensions.",
-      "brand": {"@type": "Brand", "name": "I.S. Engineering Co."},
-      "manufacturer": {"@id": "https://isengineeringco.in/#localbusiness"},
+      "description": "MS Blind Flanges manufactured in Mumbai by I.S. Engineering Co. Available in 15mm–600mm NB, IS/ANSI B16.5, FF/RF/RJ face types. Used to seal pipe ends for pressure testing and isolation.",
+      "image": "https://isengineeringco.in/assets/images/blind-pipe-flange.jpg",
+      "sku": "ISEC-BLF-MS",
+      "mpn": "ISEC-BLF-MS",
+      "brand": {
+        "@type": "Brand",
+        "name": "I.S. Engineering Co."
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "I.S. Engineering Co.",
+        "url": "https://isengineeringco.in"
+      },
       "material": "Mild Steel IS:2062",
+      "countryOfOrigin": "IN",
       "offers": {
         "@type": "Offer",
         "url": "https://isengineeringco.in/blind-flanges.html",
         "priceCurrency": "INR",
+        "price": "0",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "INR",
+          "description": "Price on request. Contact +91 83558 15350 for factory-direct quote."
+        },
         "availability": "https://schema.org/InStock",
-        "seller": {"@id": "https://isengineeringco.in/#localbusiness"}
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "name": "I.S. Engineering Co.",
+          "url": "https://isengineeringco.in",
+          "telephone": "+918355815350",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Gala No 10, Plot 255, Mehta Lane, Darukhana",
+            "addressLocality": "Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "400010",
+            "addressCountry": "IN"
+          }
+        }
       }
     },
     {
       "@type": "WebPage",
       "@id": "https://isengineeringco.in/blind-flanges.html",
       "url": "https://isengineeringco.in/blind-flanges.html",
-      "name": "Blind Flanges Manufacturer in Mumbai | BLRF Flanges IS & ANSI B16.5 | I.S. Engineering Co."
+      "name": "Blind Flanges Manufacturer in Mumbai | BLRF Flanges IS & ANSI B16.5 | I.S. Engineering Co.",
+      "isPartOf": {
+        "@id": "https://isengineeringco.in/"
+      }
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is a Blind Flange?",
-        "acceptedAnswer": {"@type": "Answer", "text": "A Blind Flange (also called Blanking Flange or BL Flange) is a solid disc flange with bolt holes on the outer rim but no central bore. It is bolted to the end of a flanged pipe to completely seal and close the pipe opening. Used for pipe termination, pressure testing and future expansion points in industrial piping systems."}
-      },
-      {
-        "@type": "Question",
-        "name": "What sizes of Blind Flanges are available?",
-        "acceptedAnswer": {"@type": "Answer", "text": "I.S. Engineering Co. manufactures M.S. Blind Flanges in sizes from 15mm NB to 600mm NB in Flat Face (FF), Raised Face (RF) and Ring Joint (RJ) configurations to IS and ANSI B16.5 standards. Custom sizes outside the standard range are manufactured on request."}
-      },
-      {
-        "@type": "Question",
-        "name": "What pressure classes are available for Blind Flanges?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Blind Flanges are available in PN6, PN10, PN16 (IS:1538 standard) and Class 150, 300, 600, 900, 1500, 2500 (ANSI B16.5). Higher pressure class flanges have greater thickness and are suitable for higher operating pressures in oil and gas and critical service."}
-      },
-      {
-        "@type": "Question",
-        "name": "What is the difference between a Blind Flange and an End Cap?",
-        "acceptedAnswer": {"@type": "Answer", "text": "A Blind Flange is a bolted fitting that seals an existing flanged pipe end — easily removable. An End Cap is a butt-welded fitting permanently welded onto the pipe end. Blind Flanges are preferred when future access, pipeline extension or pressure testing access is required at that pipe end."}
-      },
-      {
-        "@type": "Question",
-        "name": "Can Blind Flanges be used for hydrostatic pressure testing?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Yes. Blind Flanges are widely used for hydrostatic and pneumatic pressure testing of piping systems. They temporarily close the pipe end during testing and are unbolted and removed afterwards. Ensure the blind flange pressure class exceeds the test pressure with an adequate safety margin as per ASME B31.3 or applicable code."}
-      },
-      {
-        "@type": "Question",
-        "name": "What material are your Blind Flanges made from?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Blind Flanges from I.S. Engineering Co. are manufactured from IS:2062 Grade E250 Mild Steel with tensile strength 410–530 N/mm² and yield strength ≥ 250 N/mm². Material conforms to Indian Standard IS:2062 and is verified before production. Material Test Certificates available on request."}
-      },
-      {
-        "@type": "Question",
-        "name": "How do I order Blind Flanges from I.S. Engineering Co.?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Call +91 83558 15350 or WhatsApp the same number, or email info.isengineering.co@gmail.com. Specify: NB size, pressure class (PN or Class), face type (FF/RF), quantity and delivery location. We respond with factory-direct pricing within 24 business hours from our Darukhana, Mumbai factory."}
-      }
-    ]
+        {
+          "@type": "Question",
+          "name": "What is a Blind Flange?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Blind Flange (also called Blanking Flange or BL Flange) is a solid disc flange with bolt holes on the outer rim but no central bore. It is bolted to the end of a flanged pipe to completely seal and close the pipe opening. Used for pipe termination, pressure testing and future expansion points in industrial piping systems."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What sizes of Blind Flanges are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I.S. Engineering Co. manufactures M.S. Blind Flanges in sizes from 15mm NB to 600mm NB in Flat Face (FF), Raised Face (RF) and Ring Joint (RJ) configurations to IS and ANSI B16.5 standards. Custom sizes outside the standard range are manufactured on request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What pressure classes are available for Blind Flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Blind Flanges are available in PN6, PN10, PN16 (IS:1538 standard) and Class 150, 300, 600, 900, 1500, 2500 (ANSI B16.5). Higher pressure class flanges have greater thickness and are suitable for higher operating pressures in oil and gas and critical service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a Blind Flange and an End Cap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Blind Flange is a bolted fitting that seals an existing flanged pipe end — easily removable. An End Cap is a butt-welded fitting permanently welded onto the pipe end. Blind Flanges are preferred when future access, pipeline extension or pressure testing access is required at that pipe end."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Blind Flanges be used for hydrostatic pressure testing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Blind Flanges are widely used for hydrostatic and pneumatic pressure testing of piping systems. They temporarily close the pipe end during testing and are unbolted and removed afterwards. Ensure the blind flange pressure class exceeds the test pressure with an adequate safety margin as per ASME B31.3 or applicable code."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What material are your Blind Flanges made from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Blind Flanges from I.S. Engineering Co. are manufactured from IS:2062 Grade E250 Mild Steel with tensile strength 410–530 N/mm² and yield strength ≥ 250 N/mm². Material conforms to Indian Standard IS:2062 and is verified before production. Material Test Certificates available on request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I order Blind Flanges from I.S. Engineering Co.?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call +91 83558 15350 or WhatsApp the same number, or email info.isengineering.co@gmail.com. Specify: NB size, pressure class (PN or Class), face type (FF/RF), quantity and delivery location. We respond with factory-direct pricing within 24 business hours from our Darukhana, Mumbai factory."
+          }
+        }
+      ]
     }
   ]
 }</script>

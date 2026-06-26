@@ -107,9 +107,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://isengineeringco.in/"},
-        {"@type": "ListItem", "position": 2, "name": "Products", "item": "https://isengineeringco.in/products.html"},
-        {"@type": "ListItem", "position": 3, "name": "Reducer Fittings", "item": "https://isengineeringco.in/reducer-fittings.html"}
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://isengineeringco.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://isengineeringco.in/products.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reducer Fittings",
+          "item": "https://isengineeringco.in/reducer-fittings.html"
+        }
       ]
     },
     {
@@ -118,7 +133,10 @@
       "name": "I.S. Engineering Co.",
       "description": "Direct manufacturer of MS Flanges, IS:1538 E Table Flanges, MS Pipes and Industrial Pipe Fittings in Darukhana, Mumbai since 1999.",
       "url": "https://isengineeringco.in/",
-      "telephone": ["+918355815350", "+919137332945"],
+      "telephone": [
+        "+918355815350",
+        "+919137332945"
+      ],
       "email": "info.isengineering.co@gmail.com",
       "address": {
         "@type": "PostalAddress",
@@ -128,66 +146,123 @@
         "postalCode": "400010",
         "addressCountry": "IN"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 18.9647, "longitude": 72.8508},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.9647,
+        "longitude": 72.8508
+      },
       "openingHours": "Mo-Sa 09:00-18:30",
-      "priceRange": "₹₹"
+      "priceRange": "₹₹",
+      "image": "https://isengineeringco.in/assets/images/logo.png"
     },
     {
       "@type": "Product",
       "@id": "https://isengineeringco.in/reducer-fittings.html#product",
       "name": "Reducer Pipe Fittings",
-      "description": "MS Concentric and Eccentric Reducer Pipe Fittings manufactured in Mumbai by I.S. Engineering Co. Available in all standard sizes 15mm–300mm NB to ANSI B16.9 and IS standards. Used in oil & gas, water and industrial process piping.",
-      "brand": {"@type": "Brand", "name": "I.S. Engineering Co."},
-      "manufacturer": {"@id": "https://isengineeringco.in/#localbusiness"},
+      "description": "MS Concentric and Eccentric Reducer Pipe Fittings manufactured in Mumbai by I.S. Engineering Co. Available in all standard sizes 15mm–300mm NB to ANSI B16.9.",
+      "image": "https://isengineeringco.in/assets/images/ms-pipe-reducer.webp",
+      "sku": "ISEC-RF-MS",
+      "mpn": "ISEC-RF-MS",
+      "brand": {
+        "@type": "Brand",
+        "name": "I.S. Engineering Co."
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "I.S. Engineering Co.",
+        "url": "https://isengineeringco.in"
+      },
       "material": "Mild Steel IS:2062",
+      "countryOfOrigin": "IN",
       "offers": {
         "@type": "Offer",
         "url": "https://isengineeringco.in/reducer-fittings.html",
         "priceCurrency": "INR",
+        "price": "0",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "INR",
+          "description": "Price on request. Contact +91 83558 15350 for factory-direct quote."
+        },
         "availability": "https://schema.org/InStock",
-        "seller": {"@id": "https://isengineeringco.in/#localbusiness"}
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "name": "I.S. Engineering Co.",
+          "url": "https://isengineeringco.in",
+          "telephone": "+918355815350",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Gala No 10, Plot 255, Mehta Lane, Darukhana",
+            "addressLocality": "Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "400010",
+            "addressCountry": "IN"
+          }
+        }
       }
     },
     {
       "@type": "WebPage",
       "@id": "https://isengineeringco.in/reducer-fittings.html",
       "url": "https://isengineeringco.in/reducer-fittings.html",
-      "name": "Reducer Fittings Manufacturer in Mumbai | Concentric Eccentric ANSI B16.9 | I.S. Engineering Co."
+      "name": "Reducer Fittings Manufacturer in Mumbai | Concentric Eccentric ANSI B16.9 | I.S. Engineering Co.",
+      "isPartOf": {
+        "@id": "https://isengineeringco.in/"
+      }
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What are Reducer Pipe Fittings?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Reducer Pipe Fittings connect two pipes of different nominal bore sizes in a piping system. Available as Concentric Reducers — both pipe centrelines on the same axis — and Eccentric Reducers — one flat side with offset centrelines. Manufactured from IS:2062 Mild Steel to ANSI B16.9 with butt weld or socket weld ends. Sizes cover all standard NB sizes."}
-      },
-      {
-        "@type": "Question",
-        "name": "What is the difference between Concentric and Eccentric Reducers?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Concentric Reducers are symmetrical with both pipe centrelines on the same axis — used in vertical piping and horizontal piping where centreline alignment is required. Eccentric Reducers have one flat (straight) side — installed flat-side-up at horizontal pump suctions to prevent air pocket formation and cavitation, and flat-side-down at pump discharges for drainage. Never use Concentric Reducers at horizontal pump suctions."}
-      },
-      {
-        "@type": "Question",
-        "name": "Why is an Eccentric Reducer used at pump suctions?",
-        "acceptedAnswer": {"@type": "Answer", "text": "At horizontal centrifugal pump suctions, an Eccentric Reducer installed flat-side-up (BOP — Bottom of Pipe level) keeps the bottom of the pipe level — preventing any high point in the suction line where vapour or air can accumulate. Air or vapour pockets at the pump suction cause cavitation — damaging the impeller and reducing pump efficiency. This is a critical piping design rule."}
-      },
-      {
-        "@type": "Question",
-        "name": "How do I specify a Reducer Fitting when ordering?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Specify: (1) Type — Concentric (CON) or Eccentric (ECC); (2) Large end NB — e.g. 100mm NB; (3) Small end NB — e.g. 80mm NB; (4) End type — Butt Weld (BW) or Socket Weld (SW); (5) Quantity in numbers. Example: 100x80mm NB Eccentric Reducer BW ANSI B16.9, 10 nos. Call +91 83558 15350 for pricing."}
-      },
-      {
-        "@type": "Question",
-        "name": "What sizes of Reducer Fittings are available?",
-        "acceptedAnswer": {"@type": "Answer", "text": "I.S. Engineering Co. supplies M.S. Reducer Fittings in all standard NB sizes to ANSI B16.9. Both Concentric and Eccentric types available from 25x15mm NB to 300x250mm NB and all standard reductions in between. Butt weld and socket weld end types. Contact us at +91 83558 15350 for specific size availability and pricing."}
-      },
-      {
-        "@type": "Question",
-        "name": "What is the price of Reducer Fittings in Mumbai?",
-        "acceptedAnswer": {"@type": "Answer", "text": "M.S. Reducer Fitting prices depend on the type (Concentric or Eccentric), the large end NB size, the small end NB size and quantity. As a direct manufacturer in Darukhana, Mumbai, I.S. Engineering Co. offers competitive factory-direct pricing with bulk discounts. Call +91 83558 15350 or email info.isengineering.co@gmail.com for a quotation within 24 hours."}
-      }
-    ]
+        {
+          "@type": "Question",
+          "name": "What are Reducer Pipe Fittings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reducer Pipe Fittings connect two pipes of different nominal bore sizes in a piping system. Available as Concentric Reducers — both pipe centrelines on the same axis — and Eccentric Reducers — one flat side with offset centrelines. Manufactured from IS:2062 Mild Steel to ANSI B16.9 with butt weld or socket weld ends. Sizes cover all standard NB sizes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between Concentric and Eccentric Reducers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Concentric Reducers are symmetrical with both pipe centrelines on the same axis — used in vertical piping and horizontal piping where centreline alignment is required. Eccentric Reducers have one flat (straight) side — installed flat-side-up at horizontal pump suctions to prevent air pocket formation and cavitation, and flat-side-down at pump discharges for drainage. Never use Concentric Reducers at horizontal pump suctions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is an Eccentric Reducer used at pump suctions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At horizontal centrifugal pump suctions, an Eccentric Reducer installed flat-side-up (BOP — Bottom of Pipe level) keeps the bottom of the pipe level — preventing any high point in the suction line where vapour or air can accumulate. Air or vapour pockets at the pump suction cause cavitation — damaging the impeller and reducing pump efficiency. This is a critical piping design rule."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I specify a Reducer Fitting when ordering?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Specify: (1) Type — Concentric (CON) or Eccentric (ECC); (2) Large end NB — e.g. 100mm NB; (3) Small end NB — e.g. 80mm NB; (4) End type — Butt Weld (BW) or Socket Weld (SW); (5) Quantity in numbers. Example: 100x80mm NB Eccentric Reducer BW ANSI B16.9, 10 nos. Call +91 83558 15350 for pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What sizes of Reducer Fittings are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I.S. Engineering Co. supplies M.S. Reducer Fittings in all standard NB sizes to ANSI B16.9. Both Concentric and Eccentric types available from 25x15mm NB to 300x250mm NB and all standard reductions in between. Butt weld and socket weld end types. Contact us at +91 83558 15350 for specific size availability and pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the price of Reducer Fittings in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "M.S. Reducer Fitting prices depend on the type (Concentric or Eccentric), the large end NB size, the small end NB size and quantity. As a direct manufacturer in Darukhana, Mumbai, I.S. Engineering Co. offers competitive factory-direct pricing with bulk discounts. Call +91 83558 15350 or email info.isengineering.co@gmail.com for a quotation within 24 hours."
+          }
+        }
+      ]
     }
   ]
 }</script>

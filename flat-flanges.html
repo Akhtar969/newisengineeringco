@@ -107,9 +107,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://isengineeringco.in/"},
-        {"@type": "ListItem", "position": 2, "name": "Products", "item": "https://isengineeringco.in/products.html"},
-        {"@type": "ListItem", "position": 3, "name": "Flat / Slip-On Flanges", "item": "https://isengineeringco.in/flat-flanges.html"}
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://isengineeringco.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://isengineeringco.in/products.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Flat / Slip-On Flanges",
+          "item": "https://isengineeringco.in/flat-flanges.html"
+        }
       ]
     },
     {
@@ -118,7 +133,10 @@
       "name": "I.S. Engineering Co.",
       "description": "Direct manufacturer of MS Flanges, IS:1538 E Table Flanges, MS Pipes and Industrial Pipe Fittings in Darukhana, Mumbai since 1999.",
       "url": "https://isengineeringco.in/",
-      "telephone": ["+918355815350", "+919137332945"],
+      "telephone": [
+        "+918355815350",
+        "+919137332945"
+      ],
       "email": "info.isengineering.co@gmail.com",
       "address": {
         "@type": "PostalAddress",
@@ -128,61 +146,115 @@
         "postalCode": "400010",
         "addressCountry": "IN"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 18.9647, "longitude": 72.8508},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.9647,
+        "longitude": 72.8508
+      },
       "openingHours": "Mo-Sa 09:00-18:30",
-      "priceRange": "₹₹"
+      "priceRange": "₹₹",
+      "image": "https://isengineeringco.in/assets/images/logo.png"
     },
     {
       "@type": "Product",
       "@id": "https://isengineeringco.in/flat-flanges.html#product",
       "name": "Flat / Slip-On Flanges",
-      "description": "MS Flat (Slip-On) Flanges manufactured in Mumbai by I.S. Engineering Co. Available in 15mm–600mm NB, IS:6392/ANSI B16.5, PN6 to PN40. Economical and easy to install for low-medium pressure water, HVAC and general process piping.",
-      "brand": {"@type": "Brand", "name": "I.S. Engineering Co."},
-      "manufacturer": {"@id": "https://isengineeringco.in/#localbusiness"},
+      "description": "MS Flat Slip-On Flanges manufactured in Mumbai by I.S. Engineering Co. Available in 15mm–600mm NB, IS:6392/ANSI B16.5, PN6 to PN40.",
+      "image": "https://isengineeringco.in/assets/images/flat_flanges.png",
+      "sku": "ISEC-SOF-MS",
+      "mpn": "ISEC-SOF-MS",
+      "brand": {
+        "@type": "Brand",
+        "name": "I.S. Engineering Co."
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "I.S. Engineering Co.",
+        "url": "https://isengineeringco.in"
+      },
       "material": "Mild Steel IS:2062",
+      "countryOfOrigin": "IN",
       "offers": {
         "@type": "Offer",
         "url": "https://isengineeringco.in/flat-flanges.html",
         "priceCurrency": "INR",
+        "price": "0",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "INR",
+          "description": "Price on request. Contact +91 83558 15350 for factory-direct quote."
+        },
         "availability": "https://schema.org/InStock",
-        "seller": {"@id": "https://isengineeringco.in/#localbusiness"}
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "name": "I.S. Engineering Co.",
+          "url": "https://isengineeringco.in",
+          "telephone": "+918355815350",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Gala No 10, Plot 255, Mehta Lane, Darukhana",
+            "addressLocality": "Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "400010",
+            "addressCountry": "IN"
+          }
+        }
       }
     },
     {
       "@type": "WebPage",
       "@id": "https://isengineeringco.in/flat-flanges.html",
       "url": "https://isengineeringco.in/flat-flanges.html",
-      "name": "Flat / Slip-On Flanges Manufacturer in Mumbai | IS:6392 ANSI | I.S. Engineering Co."
+      "name": "Flat / Slip-On Flanges Manufacturer in Mumbai | IS:6392 ANSI | I.S. Engineering Co.",
+      "isPartOf": {
+        "@id": "https://isengineeringco.in/"
+      }
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What are Flat Flanges or Slip-On Flanges?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Flat Flanges (Slip-On Flanges) have a bore slightly larger than the pipe OD so the pipe slides through the flange. The flange is then fillet-welded to the pipe on both the inner and outer faces — two fillet welds total. They are the most economical and easiest-to-install flange type, suitable for low-to-medium pressure water supply, HVAC and general process piping service."}
-      },
-      {
-        "@type": "Question",
-        "name": "What pressure ratings are available for Flat Flanges?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Flat Slip-On Flanges are available in PN6 (6 bar), PN10 (10 bar) and PN16 (16 bar) to IS:6392 standard, and Class 150 and Class 300 to ANSI B16.5. For higher pressure classes (Class 600 and above), Welding Neck Flanges are recommended as slip-on flanges are not reliable at high pressures."}
-      },
-      {
-        "@type": "Question",
-        "name": "What is the difference between Flat Flanges and Welding Neck Flanges?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Flat Slip-On Flanges slip over the pipe and use two fillet welds — lower cost, easier to install, suitable for PN6 to PN16 and Class 150 to 300 low-pressure service. Welding Neck Flanges use a full-penetration butt weld with a tapered neck — higher cost but superior stress distribution, fatigue resistance and suitable for all pressure classes including high-pressure critical service."}
-      },
-      {
-        "@type": "Question",
-        "name": "What sizes of Flat Slip-On Flanges are available?",
-        "acceptedAnswer": {"@type": "Answer", "text": "I.S. Engineering Co. manufactures Flat Slip-On Flanges in sizes from 15mm NB to 600mm NB in Flat Face (FF) and Raised Face (RF) face types to IS:6392 and ANSI B16.5 standards. Available in PN6, PN10, PN16 and Class 150/300 pressure ratings."}
-      },
-      {
-        "@type": "Question",
-        "name": "What gasket should be used with Flat Flanges?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Flat Face Slip-On Flanges require a full-face gasket that covers the entire flange face including the bolt holes. Common gasket materials: natural rubber (NR) for water service; neoprene (CR) for oil service; EPDM for chemical service; compressed asbestos fibre (CAF) or graphite for general industrial service. Never use a raised face ring gasket with a flat face flange."}
-      }
-    ]
+        {
+          "@type": "Question",
+          "name": "What are Flat Flanges or Slip-On Flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Flat Flanges (Slip-On Flanges) have a bore slightly larger than the pipe OD so the pipe slides through the flange. The flange is then fillet-welded to the pipe on both the inner and outer faces — two fillet welds total. They are the most economical and easiest-to-install flange type, suitable for low-to-medium pressure water supply, HVAC and general process piping service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What pressure ratings are available for Flat Flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Flat Slip-On Flanges are available in PN6 (6 bar), PN10 (10 bar) and PN16 (16 bar) to IS:6392 standard, and Class 150 and Class 300 to ANSI B16.5. For higher pressure classes (Class 600 and above), Welding Neck Flanges are recommended as slip-on flanges are not reliable at high pressures."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between Flat Flanges and Welding Neck Flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Flat Slip-On Flanges slip over the pipe and use two fillet welds — lower cost, easier to install, suitable for PN6 to PN16 and Class 150 to 300 low-pressure service. Welding Neck Flanges use a full-penetration butt weld with a tapered neck — higher cost but superior stress distribution, fatigue resistance and suitable for all pressure classes including high-pressure critical service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What sizes of Flat Slip-On Flanges are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I.S. Engineering Co. manufactures Flat Slip-On Flanges in sizes from 15mm NB to 600mm NB in Flat Face (FF) and Raised Face (RF) face types to IS:6392 and ANSI B16.5 standards. Available in PN6, PN10, PN16 and Class 150/300 pressure ratings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What gasket should be used with Flat Flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Flat Face Slip-On Flanges require a full-face gasket that covers the entire flange face including the bolt holes. Common gasket materials: natural rubber (NR) for water service; neoprene (CR) for oil service; EPDM for chemical service; compressed asbestos fibre (CAF) or graphite for general industrial service. Never use a raised face ring gasket with a flat face flange."
+          }
+        }
+      ]
     }
   ]
 }</script>

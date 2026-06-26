@@ -159,161 +159,203 @@
   </style>
 
   <!-- Schema Markup -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://isengineeringco.in/"},
-          {"@type": "ListItem", "position": 2, "name": "Products", "item": "https://isengineeringco.in/products.html"},
-          {"@type": "ListItem", "position": 3, "name": "E Table Flanges", "item": "https://isengineeringco.in/e-table-flanges.html"},
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://isengineeringco.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://isengineeringco.in/products.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "E Table Flanges IS:1538",
+          "item": "https://isengineeringco.in/e-table-flanges.html"
+        }
+      ]
+    },
     {
       "@type": "LocalBusiness",
       "@id": "https://isengineeringco.in/#localbusiness",
       "name": "I.S. Engineering Co.",
-      "description": "Direct manufacturer of M.S. Flanges, IS:1538 E Table Flanges, M.S. Pipes and Industrial Pipe Fittings in Darukhana, Mumbai since 1999.",
+      "description": "Direct manufacturer of MS Flanges, IS:1538 E Table Flanges, MS Pipes and Industrial Pipe Fittings in Darukhana, Mumbai since 1999.",
       "url": "https://isengineeringco.in/",
-      "telephone": ["+918355815350", "+919137332945",
-    {
-      "@type": "WebPage",
-      "speakable": {
-        "@type": "SpeakableSpecification",
-        "cssSelector": ["h1", ".pd-info h1", ".page-hero h1", ".pd-desc", ".section-title h2"]
-      }
-    }
-  ],
+      "telephone": [
+        "+918355815350",
+        "+919137332945"
+      ],
       "email": "info.isengineering.co@gmail.com",
-      "foundingDate": "1999",
-      "taxID": "27AMZPK5174G1ZE",
-      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Gala No 10, Plot No 255, Mehta Lane, Kolsa Bunder, Darukhana, Rey Road",
+        "streetAddress": "Gala No 10, Plot 255, Mehta Lane, Darukhana",
         "addressLocality": "Mumbai",
         "addressRegion": "Maharashtra",
         "postalCode": "400010",
         "addressCountry": "IN"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 18.9633, "longitude": 72.8450},
-      "openingHoursSpecification": [{"@type": "OpeningHoursSpecification","dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens": "09:00","closes": "18:30"}],
-      "areaServed": [
-        {"@type": "City", "name": "Mumbai"},{"@type": "City", "name": "Pune"},
-        {"@type": "City", "name": "Delhi"},{"@type": "City", "name": "Bangalore"},
-        {"@type": "City", "name": "Chennai"},{"@type": "City", "name": "Hyderabad"},
-        {"@type": "City", "name": "Ahmedabad"},{"@type": "Country", "name": "India"}
-      ],
-      "contactPoint": [
-        {"@type": "ContactPoint","telephone": "+918355815350","contactType": "sales","availableLanguage": ["English","Hindi","Marathi"]},
-        {"@type": "ContactPoint","telephone": "+919137332945","contactType": "customer service","availableLanguage": ["English","Hindi","Marathi"]}
-      ],
-      "sameAs": ["https://isengineeringco.in/"]
-    }
-  ]
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.9647,
+        "longitude": 72.8508
       },
-      {
-        "@type": "Product",
-        "@id": "https://isengineeringco.in/e-table-flanges.html#product",
-        "name": "E Table Flanges (IS:1538 Table E)",
-        "alternateName": ["IS 1538 Table E Flanges", "E Table MS Flanges", "Indian Standard Table E Flanges", "IS1538 Flat Face Flanges"],
-        "description": "E Table Flanges (IS:1538 Table E) are Mild Steel flanges manufactured strictly as per Indian Standard IS:1538 Table E specifications. Available in sizes 15mm NB to 600mm NB with pressure ratings PN6 (6 bar), PN10 (10 bar) and PN16 (16 bar). Feature flat face (FF) design with standardised Indian bolt circle and hole dimensions. Used in municipal water supply, sewage treatment, fire-fighting, oil & gas and industrial process piping across India.",
-        "image": [
-          "https://isengineeringco.in/assets/images/E-Table-Flange.jpg",
-          "https://isengineeringco.in/assets/images/alll-flanges.jpg"
-        ],
-        "brand": {"@type": "Brand", "name": "I.S. Engineering Co."},
-        "manufacturer": {
+      "openingHours": "Mo-Sa 09:00-18:30",
+      "priceRange": "₹₹",
+      "image": "https://isengineeringco.in/assets/images/logo.png"
+    },
+    {
+      "@type": "Product",
+      "@id": "https://isengineeringco.in/e-table-flanges.html#product",
+      "name": "E Table Flanges IS:1538",
+      "description": "IS:1538 Table E Flanges manufactured in Mumbai by I.S. Engineering Co. Available in 15mm–600mm NB, PN6/PN10/PN16. Used for municipal water supply, MCGM/MIDC projects, sewage and fire-fighting piping.",
+      "image": "https://isengineeringco.in/assets/images/E-Table-Flange.jpg",
+      "sku": "ISEC-ETF-IS1538",
+      "mpn": "ISEC-ETF-IS1538",
+      "brand": {
+        "@type": "Brand",
+        "name": "I.S. Engineering Co."
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "I.S. Engineering Co.",
+        "url": "https://isengineeringco.in"
+      },
+      "material": "Mild Steel IS:2062",
+      "countryOfOrigin": "IN",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://isengineeringco.in/e-table-flanges.html",
+        "priceCurrency": "INR",
+        "price": "0",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "INR",
+          "description": "Price on request. Contact +91 83558 15350 for factory-direct quote."
+        },
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
           "@type": "Organization",
           "name": "I.S. Engineering Co.",
-          "url": "https://isengineeringco.in/",
+          "url": "https://isengineeringco.in",
+          "telephone": "+918355815350",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Gala No 10, Plot No 255, Mehta Lane, Kolsa Bunder, Darukhana, Rey Road",
+            "streetAddress": "Gala No 10, Plot 255, Mehta Lane, Darukhana",
             "addressLocality": "Mumbai",
             "addressRegion": "Maharashtra",
             "postalCode": "400010",
             "addressCountry": "IN"
           }
-        },
-        "material": "Mild Steel IS:2062",
-        "category": "Industrial Flanges / Pipe Flanges",
-        "additionalProperty": [
-          {"@type": "PropertyValue", "name": "Standard", "value": "IS:1538 Table E"},
-          {"@type": "PropertyValue", "name": "Size Range", "value": "15mm NB to 600mm NB"},
-          {"@type": "PropertyValue", "name": "Pressure Ratings", "value": "PN6, PN10, PN16"},
-          {"@type": "PropertyValue", "name": "Face Type", "value": "Flat Face (FF)"},
-          {"@type": "PropertyValue", "name": "Material Grade", "value": "IS:2062 Mild Steel"},
-          {"@type": "PropertyValue", "name": "Country of Manufacture", "value": "India"},
-          {"@type": "PropertyValue", "name": "Manufacturing Location", "value": "Darukhana, Mumbai, Maharashtra"}
-        ],
-        "offers": {
-          "@type": "Offer",
-          "url": "https://isengineeringco.in/e-table-flanges.html",
-          "priceCurrency": "INR",
-          "availability": "https://schema.org/InStock",
-          "seller": {"@type": "Organization", "name": "I.S. Engineering Co.", "url": "https://isengineeringco.in/"},
-          "areaServed": {"@type": "Country", "name": "India"}
         }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What are E Table Flanges?",
-            "acceptedAnswer": {"@type": "Answer", "text": "E Table Flanges are Mild Steel flanges manufactured as per Indian Standard IS:1538 Table E. The 'Table E' designation specifies a particular dimension series — including outside diameter (OD), bolt circle diameter (PCD), number and size of bolt holes, and flange thickness — for each nominal bore (NB) size from 15mm to 600mm. They feature a flat face (FF) mating surface and are available in pressure ratings PN6 (6 bar), PN10 (10 bar) and PN16 (16 bar)."}
-          },
-          {
-            "@type": "Question",
-            "name": "What is IS:1538 Table E standard for flanges?",
-            "acceptedAnswer": {"@type": "Answer", "text": "IS:1538 is the Indian Standard specification for cast iron and mild steel pipe fittings and flanges. 'Table E' is one of several dimension tables within IS:1538, specifying the bolt circle diameter, bolt count, bolt size and flange thickness for each nominal bore size. IS:1538 Table E flanges are commonly called 'E Table Flanges' and are widely used in India for water supply, sewage, fire-fighting and industrial piping systems where IS standard components are required."}
-          },
-          {
-            "@type": "Question",
-            "name": "What sizes of E Table Flanges are available?",
-            "acceptedAnswer": {"@type": "Answer", "text": "I.S. Engineering Co. manufactures IS:1538 E Table Flanges in sizes from 15mm NB (nominal bore) to 600mm NB. Standard sizes include: 15mm, 20mm, 25mm, 32mm, 40mm, 50mm, 65mm, 80mm, 100mm, 125mm, 150mm, 200mm, 250mm, 300mm, 350mm, 400mm, 450mm, 500mm and 600mm NB. Custom sizes outside this range are available on request."}
-          },
-          {
-            "@type": "Question",
-            "name": "What are the pressure ratings for E Table Flanges?",
-            "acceptedAnswer": {"@type": "Answer", "text": "IS:1538 E Table Flanges are available in three pressure rating classes: PN6 (nominal pressure 6 bar / approximately 87 PSI), PN10 (nominal pressure 10 bar / approximately 145 PSI), and PN16 (nominal pressure 16 bar / approximately 232 PSI). PN6 is typically specified for water distribution mains, PN10 for industrial process piping, and PN16 for higher-pressure oil and gas distribution systems."}
-          },
-          {
-            "@type": "Question",
-            "name": "What is the difference between E Table Flanges and standard ANSI flanges?",
-            "acceptedAnswer": {"@type": "Answer", "text": "E Table Flanges follow Indian Standard IS:1538 Table E dimension series with Indian-specified OD, bolt circle diameter and bolt hole dimensions. ANSI flanges (ANSI B16.5) follow American National Standards Institute dimension series with different dimensional specifications. E Table Flanges use a flat face (FF) design and are mandated for Indian municipal water authorities, sewage boards and public sector piping projects. ANSI flanges are used in oil & gas and petrochemical projects following international standards."}
-          },
-          {
-            "@type": "Question",
-            "name": "What applications use E Table Flanges?",
-            "acceptedAnswer": {"@type": "Answer", "text": "IS:1538 E Table Flanges are used in: municipal water supply distribution mains (MCGM, MIDC, state water authorities), sewage and wastewater treatment plant piping, fire-fighting ring main systems, irrigation distribution networks, chemical and pharmaceutical process piping, oil and gas distribution networks, and general industrial process piping where IS:1538 standard compliance is mandated by the project specification."}
-          },
-          {
-            "@type": "Question",
-            "name": "What material are E Table Flanges made from?",
-            "acceptedAnswer": {"@type": "Answer", "text": "I.S. Engineering Co.'s E Table Flanges are manufactured from IS:2062 grade mild steel (MS). IS:2062 is the Indian Standard specification for hot-rolled medium and high-tensile structural steel. This grade provides the required tensile strength, ductility and weldability for flanged pipe connections in water, sewage and industrial piping applications."}
-          },
-          {
-            "@type": "Question",
-            "name": "What is the price of E Table Flanges in Mumbai?",
-            "acceptedAnswer": {"@type": "Answer", "text": "E Table Flange prices depend on the nominal bore size (NB), pressure rating (PN6/PN10/PN16) and order quantity. As a direct manufacturer in Darukhana, Mumbai, I.S. Engineering Co. offers factory-direct pricing with no middlemen markup — among the most competitive rates for IS:1538 E Table Flanges in Mumbai. Call +91 83558 15350 or email info.isengineering.co@gmail.com with your size, quantity and delivery location for a quotation within 24 hours."}
-          },
-          {
-            "@type": "Question",
-            "name": "Do you supply E Table Flanges outside Mumbai?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Yes. I.S. Engineering Co. supplies IS:1538 E Table Flanges PAN India. We regularly dispatch to Mumbai, Pune, Navi Mumbai, Thane, Delhi NCR, Bangalore, Chennai, Hyderabad, Ahmedabad, Surat, Kolkata, Nagpur and all major industrial cities and project sites across India."}
-          },
-          {
-            "@type": "Question",
-            "name": "Do you provide Material Test Certificates for E Table Flanges?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Yes. Material Test Certificates (MTC) confirming the IS:2062 mild steel grade and dimensional inspection reports conforming to IS:1538 Table E are available on request. We also provide proper GST invoices (GSTIN: 27AMZPK5174G1ZE) on all supplies."}
-          }
-        ]
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://isengineeringco.in/e-table-flanges.html",
+      "url": "https://isengineeringco.in/e-table-flanges.html",
+      "name": "E Table Flanges Manufacturer in Mumbai | IS:1538 Table E Flanges PN6 PN10 PN16 | I.S. Engineering Co.",
+      "isPartOf": {
+        "@id": "https://isengineeringco.in/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are E Table Flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E Table Flanges are Mild Steel flanges manufactured as per Indian Standard IS:1538 Table E. The 'Table E' designation specifies a particular dimension series — including outside diameter (OD), bolt circle diameter (PCD), number and size of bolt holes, and flange thickness — for each nominal bore (NB) size from 15mm to 600mm. They feature a flat face (FF) mating surface and are available in pressure ratings PN6 (6 bar), PN10 (10 bar) and PN16 (16 bar)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is IS:1538 Table E standard for flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IS:1538 is the Indian Standard specification for cast iron and mild steel pipe fittings and flanges. 'Table E' is one of several dimension tables within IS:1538, specifying the bolt circle diameter, bolt count, bolt size and flange thickness for each nominal bore size. IS:1538 Table E flanges are commonly called 'E Table Flanges' and are widely used in India for water supply, sewage, fire-fighting and industrial piping systems where IS standard components are required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What sizes of E Table Flanges are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I.S. Engineering Co. manufactures IS:1538 E Table Flanges in sizes from 15mm NB (nominal bore) to 600mm NB. Standard sizes include: 15mm, 20mm, 25mm, 32mm, 40mm, 50mm, 65mm, 80mm, 100mm, 125mm, 150mm, 200mm, 250mm, 300mm, 350mm, 400mm, 450mm, 500mm and 600mm NB. Custom sizes outside this range are available on request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the pressure ratings for E Table Flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IS:1538 E Table Flanges are available in three pressure rating classes: PN6 (nominal pressure 6 bar / approximately 87 PSI), PN10 (nominal pressure 10 bar / approximately 145 PSI), and PN16 (nominal pressure 16 bar / approximately 232 PSI). PN6 is typically specified for water distribution mains, PN10 for industrial process piping, and PN16 for higher-pressure oil and gas distribution systems."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between E Table Flanges and standard ANSI flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E Table Flanges follow Indian Standard IS:1538 Table E dimension series with Indian-specified OD, bolt circle diameter and bolt hole dimensions. ANSI flanges (ANSI B16.5) follow American National Standards Institute dimension series with different dimensional specifications. E Table Flanges use a flat face (FF) design and are mandated for Indian municipal water authorities, sewage boards and public sector piping projects. ANSI flanges are used in oil & gas and petrochemical projects following international standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What applications use E Table Flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IS:1538 E Table Flanges are used in: municipal water supply distribution mains (MCGM, MIDC, state water authorities), sewage and wastewater treatment plant piping, fire-fighting ring main systems, irrigation distribution networks, chemical and pharmaceutical process piping, oil and gas distribution networks, and general industrial process piping where IS:1538 standard compliance is mandated by the project specification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What material are E Table Flanges made from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I.S. Engineering Co.'s E Table Flanges are manufactured from IS:2062 grade mild steel (MS). IS:2062 is the Indian Standard specification for hot-rolled medium and high-tensile structural steel. This grade provides the required tensile strength, ductility and weldability for flanged pipe connections in water, sewage and industrial piping applications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the price of E Table Flanges in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "E Table Flange prices depend on the nominal bore size (NB), pressure rating (PN6/PN10/PN16) and order quantity. As a direct manufacturer in Darukhana, Mumbai, I.S. Engineering Co. offers factory-direct pricing with no middlemen markup — among the most competitive rates for IS:1538 E Table Flanges in Mumbai. Call +91 83558 15350 or email info.isengineering.co@gmail.com with your size, quantity and delivery location for a quotation within 24 hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you supply E Table Flanges outside Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. I.S. Engineering Co. supplies IS:1538 E Table Flanges PAN India. We regularly dispatch to Mumbai, Pune, Navi Mumbai, Thane, Delhi NCR, Bangalore, Chennai, Hyderabad, Ahmedabad, Surat, Kolkata, Nagpur and all major industrial cities and project sites across India."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide Material Test Certificates for E Table Flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Material Test Certificates (MTC) confirming the IS:2062 mild steel grade and dimensional inspection reports conforming to IS:1538 Table E are available on request. We also provide proper GST invoices (GSTIN: 27AMZPK5174G1ZE) on all supplies."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
 </head>
 <body>
 

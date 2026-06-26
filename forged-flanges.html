@@ -107,9 +107,24 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://isengineeringco.in/"},
-        {"@type": "ListItem", "position": 2, "name": "Products", "item": "https://isengineeringco.in/products.html"},
-        {"@type": "ListItem", "position": 3, "name": "Forged Flanges", "item": "https://isengineeringco.in/forged-flanges.html"}
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://isengineeringco.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://isengineeringco.in/products.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Forged Flanges",
+          "item": "https://isengineeringco.in/forged-flanges.html"
+        }
       ]
     },
     {
@@ -118,7 +133,10 @@
       "name": "I.S. Engineering Co.",
       "description": "Direct manufacturer of MS Flanges, IS:1538 E Table Flanges, MS Pipes and Industrial Pipe Fittings in Darukhana, Mumbai since 1999.",
       "url": "https://isengineeringco.in/",
-      "telephone": ["+918355815350", "+919137332945"],
+      "telephone": [
+        "+918355815350",
+        "+919137332945"
+      ],
       "email": "info.isengineering.co@gmail.com",
       "address": {
         "@type": "PostalAddress",
@@ -128,61 +146,115 @@
         "postalCode": "400010",
         "addressCountry": "IN"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 18.9647, "longitude": 72.8508},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.9647,
+        "longitude": 72.8508
+      },
       "openingHours": "Mo-Sa 09:00-18:30",
-      "priceRange": "₹₹"
+      "priceRange": "₹₹",
+      "image": "https://isengineeringco.in/assets/images/logo.png"
     },
     {
       "@type": "Product",
       "@id": "https://isengineeringco.in/forged-flanges.html#product",
       "name": "Forged Flanges",
-      "description": "MS Forged Flanges manufactured in Mumbai by I.S. Engineering Co. Available in 15mm–600mm NB, Class 150–2500, ANSI B16.5 / ASTM A105. Superior strength for refineries, power plants and petrochemical applications.",
-      "brand": {"@type": "Brand", "name": "I.S. Engineering Co."},
-      "manufacturer": {"@id": "https://isengineeringco.in/#localbusiness"},
+      "description": "MS Forged Flanges manufactured in Mumbai by I.S. Engineering Co. Available in 15mm–600mm NB, Class 150–2500, ANSI B16.5. Superior strength for refineries and petrochemical applications.",
+      "image": "https://isengineeringco.in/assets/images/forged-flanges.jpg",
+      "sku": "ISEC-FF-MS",
+      "mpn": "ISEC-FF-MS",
+      "brand": {
+        "@type": "Brand",
+        "name": "I.S. Engineering Co."
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "I.S. Engineering Co.",
+        "url": "https://isengineeringco.in"
+      },
       "material": "Mild Steel IS:2062",
+      "countryOfOrigin": "IN",
       "offers": {
         "@type": "Offer",
         "url": "https://isengineeringco.in/forged-flanges.html",
         "priceCurrency": "INR",
+        "price": "0",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "INR",
+          "description": "Price on request. Contact +91 83558 15350 for factory-direct quote."
+        },
         "availability": "https://schema.org/InStock",
-        "seller": {"@id": "https://isengineeringco.in/#localbusiness"}
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "name": "I.S. Engineering Co.",
+          "url": "https://isengineeringco.in",
+          "telephone": "+918355815350",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Gala No 10, Plot 255, Mehta Lane, Darukhana",
+            "addressLocality": "Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "400010",
+            "addressCountry": "IN"
+          }
+        }
       }
     },
     {
       "@type": "WebPage",
       "@id": "https://isengineeringco.in/forged-flanges.html",
       "url": "https://isengineeringco.in/forged-flanges.html",
-      "name": "Forged Flanges Manufacturer in Mumbai | Class 150–2500 ANSI B16.5 | I.S. Engineering Co."
+      "name": "Forged Flanges Manufacturer in Mumbai | Class 150-2500 ANSI B16.5 | I.S. Engineering Co.",
+      "isPartOf": {
+        "@id": "https://isengineeringco.in/"
+      }
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What are Forged Flanges?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Forged Flanges are manufactured by the hot forging process — compressing heated steel billets under high pressure between shaped dies. This refines and aligns the grain structure of the steel, producing a flange with higher tensile strength, better fatigue resistance, superior toughness and no internal porosity compared to plate-cut or cast flanges. The standard specification for critical service in refineries, power plants and petrochemical facilities."}
-      },
-      {
-        "@type": "Question",
-        "name": "What is the difference between Forged and plate-cut Flanges?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Forged Flanges are manufactured from hot-forged steel billets — superior grain structure, higher strength, better fatigue resistance, no internal voids, suitable for all pressure classes including Class 2500. Plate-cut Flanges are manufactured by cutting from rolled plate — disrupted grain at cut edges, lower fatigue resistance, suitable for lower pressure classes PN6 to PN40 and Class 150 to 300. Forged flanges cost more but provide significantly better mechanical performance."}
-      },
-      {
-        "@type": "Question",
-        "name": "What pressure classes are available for Forged Flanges?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Forged Flanges are available in all ANSI B16.5 pressure classes: Class 150, 300, 600, 900, 1500 and 2500. The applicable pressure class at your operating temperature can be determined from ANSI B16.5 pressure-temperature tables. Contact our technical team at +91 83558 15350 for guidance on class selection for your application."}
-      },
-      {
-        "@type": "Question",
-        "name": "When are Forged Flanges mandatory?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Forged Flanges are mandatory when: the project specification requires ASTM A105 or equivalent forged carbon steel; the pressure class is Class 300 or above; ASME B31.1 or B31.3 piping code applies; the service is high-pressure gas, steam or critical process; or the specification states forged flanges per ANSI B16.5."}
-      },
-      {
-        "@type": "Question",
-        "name": "What standard are your Forged Flanges manufactured to?",
-        "acceptedAnswer": {"@type": "Answer", "text": "I.S. Engineering Co. manufactures Forged Flanges to ANSI B16.5 standard in Class 150, 300, 600, 900, 1500 and 2500. Material conforms to IS:2062 Mild Steel (equivalent to ASTM A105 Grade I). Available in Raised Face (RF) and Ring Joint (RTJ) face types. Sizes 15mm NB to 600mm NB."}
-      }
-    ]
+        {
+          "@type": "Question",
+          "name": "What are Forged Flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Forged Flanges are manufactured by the hot forging process — compressing heated steel billets under high pressure between shaped dies. This refines and aligns the grain structure of the steel, producing a flange with higher tensile strength, better fatigue resistance, superior toughness and no internal porosity compared to plate-cut or cast flanges. The standard specification for critical service in refineries, power plants and petrochemical facilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between Forged and plate-cut Flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Forged Flanges are manufactured from hot-forged steel billets — superior grain structure, higher strength, better fatigue resistance, no internal voids, suitable for all pressure classes including Class 2500. Plate-cut Flanges are manufactured by cutting from rolled plate — disrupted grain at cut edges, lower fatigue resistance, suitable for lower pressure classes PN6 to PN40 and Class 150 to 300. Forged flanges cost more but provide significantly better mechanical performance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What pressure classes are available for Forged Flanges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Forged Flanges are available in all ANSI B16.5 pressure classes: Class 150, 300, 600, 900, 1500 and 2500. The applicable pressure class at your operating temperature can be determined from ANSI B16.5 pressure-temperature tables. Contact our technical team at +91 83558 15350 for guidance on class selection for your application."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When are Forged Flanges mandatory?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Forged Flanges are mandatory when: the project specification requires ASTM A105 or equivalent forged carbon steel; the pressure class is Class 300 or above; ASME B31.1 or B31.3 piping code applies; the service is high-pressure gas, steam or critical process; or the specification states forged flanges per ANSI B16.5."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What standard are your Forged Flanges manufactured to?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I.S. Engineering Co. manufactures Forged Flanges to ANSI B16.5 standard in Class 150, 300, 600, 900, 1500 and 2500. Material conforms to IS:2062 Mild Steel (equivalent to ASTM A105 Grade I). Available in Raised Face (RF) and Ring Joint (RTJ) face types. Sizes 15mm NB to 600mm NB."
+          }
+        }
+      ]
     }
   ]
 }</script>

@@ -102,14 +102,29 @@
     .mobile-dropdown a:hover{color:var(--green)}
 </style>
   <script type="application/ld+json">{
-  "@context":"https://schema.org",
-  "@graph":[
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@type":"BreadcrumbList",
-      "itemListElement":[
-        {"@type":"ListItem","position":1,"name":"Home","item":"https://isengineeringco.in/"},
-        {"@type":"ListItem","position":2,"name":"Products","item":"https://isengineeringco.in/products.html"},
-        {"@type":"ListItem","position":3,"name":"Elbow Fittings 45° & 90°","item":"https://isengineeringco.in/elbow-fittings.html"}
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://isengineeringco.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://isengineeringco.in/products.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Elbow Fittings 45° & 90°",
+          "item": "https://isengineeringco.in/elbow-fittings.html"
+        }
       ]
     },
     {
@@ -118,7 +133,10 @@
       "name": "I.S. Engineering Co.",
       "description": "Direct manufacturer of MS Flanges, IS:1538 E Table Flanges, MS Pipes and Industrial Pipe Fittings in Darukhana, Mumbai since 1999.",
       "url": "https://isengineeringco.in/",
-      "telephone": ["+918355815350", "+919137332945"],
+      "telephone": [
+        "+918355815350",
+        "+919137332945"
+      ],
       "email": "info.isengineering.co@gmail.com",
       "address": {
         "@type": "PostalAddress",
@@ -128,25 +146,60 @@
         "postalCode": "400010",
         "addressCountry": "IN"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 18.9647, "longitude": 72.8508},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.9647,
+        "longitude": 72.8508
+      },
       "openingHours": "Mo-Sa 09:00-18:30",
       "priceRange": "₹₹",
-      "sameAs": ["https://isengineeringco.in/"]
+      "image": "https://isengineeringco.in/assets/images/logo.png"
     },
     {
       "@type": "Product",
       "@id": "https://isengineeringco.in/elbow-fittings.html#product",
       "name": "MS Elbow Pipe Fittings",
       "description": "MS 45° and 90° Elbow Pipe Fittings manufactured in Mumbai by I.S. Engineering Co. Short Radius (1D) and Long Radius (1.5D). Available in 15mm–300mm NB to ANSI B16.9 and IS standards.",
-      "brand": {"@type": "Brand", "name": "I.S. Engineering Co."},
-      "manufacturer": {"@id": "https://isengineeringco.in/#localbusiness"},
+      "image": "https://isengineeringco.in/assets/images/ms-elbow.webp",
+      "sku": "ISEC-ELBOW-MS",
+      "mpn": "ISEC-ELBOW-MS",
+      "brand": {
+        "@type": "Brand",
+        "name": "I.S. Engineering Co."
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "I.S. Engineering Co.",
+        "url": "https://isengineeringco.in"
+      },
       "material": "Mild Steel IS:2062",
+      "countryOfOrigin": "IN",
       "offers": {
         "@type": "Offer",
         "url": "https://isengineeringco.in/elbow-fittings.html",
         "priceCurrency": "INR",
+        "price": "0",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "INR",
+          "description": "Price on request. Contact +91 83558 15350 for factory-direct quote."
+        },
         "availability": "https://schema.org/InStock",
-        "seller": {"@id": "https://isengineeringco.in/#localbusiness"}
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "name": "I.S. Engineering Co.",
+          "url": "https://isengineeringco.in",
+          "telephone": "+918355815350",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Gala No 10, Plot 255, Mehta Lane, Darukhana",
+            "addressLocality": "Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "400010",
+            "addressCountry": "IN"
+          }
+        }
       }
     },
     {
@@ -154,46 +207,62 @@
       "@id": "https://isengineeringco.in/elbow-fittings.html",
       "url": "https://isengineeringco.in/elbow-fittings.html",
       "name": "Elbow Fittings Manufacturer in Mumbai | 45° 90° MS Elbow ANSI B16.9 | I.S. Engineering Co.",
-      "isPartOf": {"@id": "https://isengineeringco.in/"},
-      "speakable": {
-        "@type": "SpeakableSpecification",
-        "cssSelector": ["h1", ".pd-info h1", ".page-hero h1", ".pd-desc", ".section-title h2"]
+      "isPartOf": {
+        "@id": "https://isengineeringco.in/"
       }
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What are Elbow Pipe Fittings?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Elbow Pipe Fittings are curved pipe fittings that change the direction of fluid or gas flow in a piping system by the specified angle — either 45 degrees (eighth bend) or 90 degrees (quarter bend). I.S. Engineering Co. manufactures M.S. Elbow Fittings in Short Radius (1D) and Long Radius (1.5D) types in sizes 15mm NB to 300mm NB to ANSI B16.9 and IS standards."}
-      },
-      {
-        "@type": "Question",
-        "name": "What is the difference between Short Radius and Long Radius Elbows?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Short Radius (SR) Elbows have a centreline radius equal to 1 times the nominal pipe size (1D) — more compact but higher pressure drop and flow turbulence. Long Radius (LR) Elbows have a centreline radius equal to 1.5 times the nominal pipe size (1.5D) — smoother flow change with lower pressure drop. Long Radius elbows are the standard specification for most process, oil and gas and water piping. Short Radius used only where space specifically demands it."}
-      },
-      {
-        "@type": "Question",
-        "name": "When should I use a 45 degree Elbow vs a 90 degree Elbow?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Use a 90 degree Elbow when the pipe must turn at a right angle — perpendicular direction change. Use a 45 degree Elbow when the pipe must turn at a 45 degree angle — often used in pairs to create an offset or route pipes around obstructions at lower pressure drop than a 90 degree elbow. Two 45 degree elbows also create a 90 degree direction change with less turbulence than a single 90 degree elbow."}
-      },
-      {
-        "@type": "Question",
-        "name": "What sizes of Elbow Fittings are available?",
-        "acceptedAnswer": {"@type": "Answer", "text": "I.S. Engineering Co. supplies M.S. Elbow Fittings in sizes from 15mm NB to 300mm NB in both 45 degree and 90 degree angles, Short Radius (1D) and Long Radius (1.5D) types. Both butt weld (BW) and socket weld (SW) end types available. Specify size, angle and radius type when ordering."}
-      },
-      {
-        "@type": "Question",
-        "name": "What standard are your Elbow Fittings manufactured to?",
-        "acceptedAnswer": {"@type": "Answer", "text": "I.S. Engineering Co. manufactures M.S. Elbow Fittings to ANSI B16.9 (butt weld) and ANSI B16.11 (socket weld) standards. Material conforms to IS:2062 Grade E250 Mild Steel. Available in 45 degree and 90 degree angles, Short Radius (1D) and Long Radius (1.5D) in sizes 15mm NB to 300mm NB."}
-      },
-      {
-        "@type": "Question",
-        "name": "What is the price of Elbow Fittings in Mumbai?",
-        "acceptedAnswer": {"@type": "Answer", "text": "M.S. Elbow Fitting prices depend on the size (NB), angle (45 or 90 degree), radius type (SR or LR) and quantity. As a direct manufacturer in Darukhana, Mumbai, I.S. Engineering Co. offers factory-direct pricing with bulk discounts. Call +91 83558 15350 or email info.isengineering.co@gmail.com for a quotation within 24 hours."}
-      }
-    ]
+        {
+          "@type": "Question",
+          "name": "What are Elbow Pipe Fittings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elbow Pipe Fittings are curved pipe fittings that change the direction of fluid or gas flow in a piping system by the specified angle — either 45 degrees (eighth bend) or 90 degrees (quarter bend). I.S. Engineering Co. manufactures M.S. Elbow Fittings in Short Radius (1D) and Long Radius (1.5D) types in sizes 15mm NB to 300mm NB to ANSI B16.9 and IS standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between Short Radius and Long Radius Elbows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Short Radius (SR) Elbows have a centreline radius equal to 1 times the nominal pipe size (1D) — more compact but higher pressure drop and flow turbulence. Long Radius (LR) Elbows have a centreline radius equal to 1.5 times the nominal pipe size (1.5D) — smoother flow change with lower pressure drop. Long Radius elbows are the standard specification for most process, oil and gas and water piping. Short Radius used only where space specifically demands it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I use a 45 degree Elbow vs a 90 degree Elbow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use a 90 degree Elbow when the pipe must turn at a right angle — perpendicular direction change. Use a 45 degree Elbow when the pipe must turn at a 45 degree angle — often used in pairs to create an offset or route pipes around obstructions at lower pressure drop than a 90 degree elbow. Two 45 degree elbows also create a 90 degree direction change with less turbulence than a single 90 degree elbow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What sizes of Elbow Fittings are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I.S. Engineering Co. supplies M.S. Elbow Fittings in sizes from 15mm NB to 300mm NB in both 45 degree and 90 degree angles, Short Radius (1D) and Long Radius (1.5D) types. Both butt weld (BW) and socket weld (SW) end types available. Specify size, angle and radius type when ordering."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What standard are your Elbow Fittings manufactured to?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I.S. Engineering Co. manufactures M.S. Elbow Fittings to ANSI B16.9 (butt weld) and ANSI B16.11 (socket weld) standards. Material conforms to IS:2062 Grade E250 Mild Steel. Available in 45 degree and 90 degree angles, Short Radius (1D) and Long Radius (1.5D) in sizes 15mm NB to 300mm NB."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the price of Elbow Fittings in Mumbai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "M.S. Elbow Fitting prices depend on the size (NB), angle (45 or 90 degree), radius type (SR or LR) and quantity. As a direct manufacturer in Darukhana, Mumbai, I.S. Engineering Co. offers factory-direct pricing with bulk discounts. Call +91 83558 15350 or email info.isengineering.co@gmail.com for a quotation within 24 hours."
+          }
+        }
+      ]
     }
   ]
 }</script>
