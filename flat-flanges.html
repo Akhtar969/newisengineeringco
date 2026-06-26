@@ -101,46 +101,62 @@
     .mobile-dropdown a{font-size:.82rem;padding:6px 10px;color:#555;display:block;text-decoration:none}
     .mobile-dropdown a:hover{color:var(--green)}
 </style>
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@graph":[
-      {"@type":"BreadcrumbList","itemListElement":[
-        {"@type":"ListItem","position":1,"name":"Home","item":"https://isengineeringco.in/"},
-        {"@type":"ListItem","position":2,"name":"Products","item":"https://isengineeringco.in/products.html"},
-        {"@type":"ListItem","position":3,"name":"Flat / Slip-On Flanges","item":"https://isengineeringco.in/flat-flanges.html"},
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://isengineeringco.in/"},
+        {"@type": "ListItem", "position": 2, "name": "Products", "item": "https://isengineeringco.in/products.html"},
+        {"@type": "ListItem", "position": 3, "name": "Flat / Slip-On Flanges", "item": "https://isengineeringco.in/flat-flanges.html"}
+      ]
+    },
     {
       "@type": "LocalBusiness",
       "@id": "https://isengineeringco.in/#localbusiness",
       "name": "I.S. Engineering Co.",
-      "description": "Direct manufacturer of M.S. Flanges, IS:1538 E Table Flanges, M.S. Pipes and Industrial Pipe Fittings in Darukhana, Mumbai since 1999.",
+      "description": "Direct manufacturer of MS Flanges, IS:1538 E Table Flanges, MS Pipes and Industrial Pipe Fittings in Darukhana, Mumbai since 1999.",
       "url": "https://isengineeringco.in/",
-      "telephone": ["+918355815350", "+919137332945",
-    {
-      
+      "telephone": ["+918355815350", "+919137332945"],
+      "email": "info.isengineering.co@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gala No 10, Plot 255, Mehta Lane, Darukhana",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400010",
+        "addressCountry": "IN"
+      },
+      "geo": {"@type": "GeoCoordinates", "latitude": 18.9647, "longitude": 72.8508},
+      "openingHours": "Mo-Sa 09:00-18:30",
+      "priceRange": "₹₹"
+    },
     {
       "@type": "Product",
       "@id": "https://isengineeringco.in/flat-flanges.html#product",
       "name": "Flat / Slip-On Flanges",
       "description": "MS Flat (Slip-On) Flanges manufactured in Mumbai by I.S. Engineering Co. Available in 15mm–600mm NB, IS:6392/ANSI B16.5, PN6 to PN40. Economical and easy to install for low-medium pressure water, HVAC and general process piping.",
       "brand": {"@type": "Brand", "name": "I.S. Engineering Co."},
-      "manufacturer": {"@id": "https://isengineeringco.in/#organization"},
+      "manufacturer": {"@id": "https://isengineeringco.in/#localbusiness"},
       "material": "Mild Steel IS:2062",
       "offers": {
         "@type": "Offer",
         "url": "https://isengineeringco.in/flat-flanges.html",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
-        "seller": {"@id": "https://isengineeringco.in/#organization"}
+        "seller": {"@id": "https://isengineeringco.in/#localbusiness"}
       }
     },
-    {"@type": "WebPage",
-      "speakable": {
-        "@type": "SpeakableSpecification",
-        "cssSelector": ["h1", ".pd-info h1", ".page-hero h1", ".pd-desc", ".section-title h2",
     {
-    "@type": "FAQPage",
-    "mainEntity": [
+      "@type": "WebPage",
+      "@id": "https://isengineeringco.in/flat-flanges.html",
+      "url": "https://isengineeringco.in/flat-flanges.html",
+      "name": "Flat / Slip-On Flanges Manufacturer in Mumbai | IS:6392 ANSI | I.S. Engineering Co."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
       {
         "@type": "Question",
         "name": "What are Flat Flanges or Slip-On Flanges?",
@@ -167,50 +183,9 @@
         "acceptedAnswer": {"@type": "Answer", "text": "Flat Face Slip-On Flanges require a full-face gasket that covers the entire flange face including the bolt holes. Common gasket materials: natural rubber (NR) for water service; neoprene (CR) for oil service; EPDM for chemical service; compressed asbestos fibre (CAF) or graphite for general industrial service. Never use a raised face ring gasket with a flat face flange."}
       }
     ]
-  }
+    }
   ]
-      }
-    }
-  ],
-      "email": "info.isengineering.co@gmail.com",
-      "foundingDate": "1999",
-      "taxID": "27AMZPK5174G1ZE",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Gala No 10, Plot No 255, Mehta Lane, Kolsa Bunder, Darukhana, Rey Road",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400010",
-        "addressCountry": "IN"
-      },
-      "geo": {"@type": "GeoCoordinates", "latitude": 18.9633, "longitude": 72.8450},
-      "openingHoursSpecification": [{"@type": "OpeningHoursSpecification","dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens": "09:00","closes": "18:30"}],
-      "areaServed": [
-        {"@type": "City", "name": "Mumbai"},{"@type": "City", "name": "Pune"},
-        {"@type": "City", "name": "Delhi"},{"@type": "City", "name": "Bangalore"},
-        {"@type": "City", "name": "Chennai"},{"@type": "City", "name": "Hyderabad"},
-        {"@type": "City", "name": "Ahmedabad"},{"@type": "Country", "name": "India"}
-      ],
-      "contactPoint": [
-        {"@type": "ContactPoint","telephone": "+918355815350","contactType": "sales","availableLanguage": ["English","Hindi","Marathi"]},
-        {"@type": "ContactPoint","telephone": "+919137332945","contactType": "customer service","availableLanguage": ["English","Hindi","Marathi"]}
-      ],
-      "sameAs": ["https://isengineeringco.in/"]
-    }
-  ]},
-      {"@type":"Product","@id":"https://isengineeringco.in/flat-flanges.html#product",
-        "name":"Flat / Slip-On Flanges",
-        "description":"I.S. Engineering Co. manufactures M.S. Flat / Slip-On Flanges in Mumbai since 1999. 15mm–600mm NB, IS:6392, ANSI B16.5. Low-medium pressure water & HVAC service. Direct manufacturer, factory pricing. PAN India. Call +91 83558 15350.",
-        "image":["https://isengineeringco.in/assets/images/flat_flanges.png"],
-        "brand":{"@type":"Brand","name":"I.S. Engineering Co."},
-        "manufacturer":{"@type":"Organization","name":"I.S. Engineering Co.","url":"https://isengineeringco.in/"},
-        "material":"IS:2062 Mild Steel",
-        "offers":{"@type":"Offer","url":"https://isengineeringco.in/flat-flanges.html","priceCurrency":"INR","availability":"https://schema.org/InStock","areaServed":{"@type":"Country","name":"India"}}
-      }
-    ]
-  }
-  </script>
+}</script>
 </head>
 <body>
   <div class="topbar">

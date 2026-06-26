@@ -101,46 +101,68 @@
     .mobile-dropdown a{font-size:.82rem;padding:6px 10px;color:#555;display:block;text-decoration:none}
     .mobile-dropdown a:hover{color:var(--green)}
 </style>
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@graph":[
-      {"@type":"BreadcrumbList","itemListElement":[
+  <script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
         {"@type":"ListItem","position":1,"name":"Home","item":"https://isengineeringco.in/"},
         {"@type":"ListItem","position":2,"name":"Products","item":"https://isengineeringco.in/products.html"},
-        {"@type":"ListItem","position":3,"name":"Elbow Fittings 45° & 90°","item":"https://isengineeringco.in/elbow-fittings.html"},
+        {"@type":"ListItem","position":3,"name":"Elbow Fittings 45° & 90°","item":"https://isengineeringco.in/elbow-fittings.html"}
+      ]
+    },
     {
       "@type": "LocalBusiness",
       "@id": "https://isengineeringco.in/#localbusiness",
       "name": "I.S. Engineering Co.",
-      "description": "Direct manufacturer of M.S. Flanges, IS:1538 E Table Flanges, M.S. Pipes and Industrial Pipe Fittings in Darukhana, Mumbai since 1999.",
+      "description": "Direct manufacturer of MS Flanges, IS:1538 E Table Flanges, MS Pipes and Industrial Pipe Fittings in Darukhana, Mumbai since 1999.",
       "url": "https://isengineeringco.in/",
-      "telephone": ["+918355815350", "+919137332945",
-    {
-      
+      "telephone": ["+918355815350", "+919137332945"],
+      "email": "info.isengineering.co@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gala No 10, Plot 255, Mehta Lane, Darukhana",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400010",
+        "addressCountry": "IN"
+      },
+      "geo": {"@type": "GeoCoordinates", "latitude": 18.9647, "longitude": 72.8508},
+      "openingHours": "Mo-Sa 09:00-18:30",
+      "priceRange": "₹₹",
+      "sameAs": ["https://isengineeringco.in/"]
+    },
     {
       "@type": "Product",
       "@id": "https://isengineeringco.in/elbow-fittings.html#product",
       "name": "MS Elbow Pipe Fittings",
       "description": "MS 45° and 90° Elbow Pipe Fittings manufactured in Mumbai by I.S. Engineering Co. Short Radius (1D) and Long Radius (1.5D). Available in 15mm–300mm NB to ANSI B16.9 and IS standards.",
       "brand": {"@type": "Brand", "name": "I.S. Engineering Co."},
-      "manufacturer": {"@id": "https://isengineeringco.in/#organization"},
+      "manufacturer": {"@id": "https://isengineeringco.in/#localbusiness"},
       "material": "Mild Steel IS:2062",
       "offers": {
         "@type": "Offer",
         "url": "https://isengineeringco.in/elbow-fittings.html",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
-        "seller": {"@id": "https://isengineeringco.in/#organization"}
+        "seller": {"@id": "https://isengineeringco.in/#localbusiness"}
       }
     },
-    {"@type": "WebPage",
+    {
+      "@type": "WebPage",
+      "@id": "https://isengineeringco.in/elbow-fittings.html",
+      "url": "https://isengineeringco.in/elbow-fittings.html",
+      "name": "Elbow Fittings Manufacturer in Mumbai | 45° 90° MS Elbow ANSI B16.9 | I.S. Engineering Co.",
+      "isPartOf": {"@id": "https://isengineeringco.in/"},
       "speakable": {
         "@type": "SpeakableSpecification",
-        "cssSelector": ["h1", ".pd-info h1", ".page-hero h1", ".pd-desc", ".section-title h2",
+        "cssSelector": ["h1", ".pd-info h1", ".page-hero h1", ".pd-desc", ".section-title h2"]
+      }
+    },
     {
-    "@type": "FAQPage",
-    "mainEntity": [
+      "@type": "FAQPage",
+      "mainEntity": [
       {
         "@type": "Question",
         "name": "What are Elbow Pipe Fittings?",
@@ -172,50 +194,9 @@
         "acceptedAnswer": {"@type": "Answer", "text": "M.S. Elbow Fitting prices depend on the size (NB), angle (45 or 90 degree), radius type (SR or LR) and quantity. As a direct manufacturer in Darukhana, Mumbai, I.S. Engineering Co. offers factory-direct pricing with bulk discounts. Call +91 83558 15350 or email info.isengineering.co@gmail.com for a quotation within 24 hours."}
       }
     ]
-  }
+    }
   ]
-      }
-    }
-  ],
-      "email": "info.isengineering.co@gmail.com",
-      "foundingDate": "1999",
-      "taxID": "27AMZPK5174G1ZE",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Gala No 10, Plot No 255, Mehta Lane, Kolsa Bunder, Darukhana, Rey Road",
-        "addressLocality": "Mumbai",
-        "addressRegion": "Maharashtra",
-        "postalCode": "400010",
-        "addressCountry": "IN"
-      },
-      "geo": {"@type": "GeoCoordinates", "latitude": 18.9633, "longitude": 72.8450},
-      "openingHoursSpecification": [{"@type": "OpeningHoursSpecification","dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens": "09:00","closes": "18:30"}],
-      "areaServed": [
-        {"@type": "City", "name": "Mumbai"},{"@type": "City", "name": "Pune"},
-        {"@type": "City", "name": "Delhi"},{"@type": "City", "name": "Bangalore"},
-        {"@type": "City", "name": "Chennai"},{"@type": "City", "name": "Hyderabad"},
-        {"@type": "City", "name": "Ahmedabad"},{"@type": "Country", "name": "India"}
-      ],
-      "contactPoint": [
-        {"@type": "ContactPoint","telephone": "+918355815350","contactType": "sales","availableLanguage": ["English","Hindi","Marathi"]},
-        {"@type": "ContactPoint","telephone": "+919137332945","contactType": "customer service","availableLanguage": ["English","Hindi","Marathi"]}
-      ],
-      "sameAs": ["https://isengineeringco.in/"]
-    }
-  ]},
-      {"@type":"Product","@id":"https://isengineeringco.in/elbow-fittings.html#product",
-        "name":"Elbow Fittings (45° & 90°)",
-        "description":"I.S. Engineering Co. manufactures M.S. Elbow Pipe Fittings in Mumbai since 1999. 45° & 90°, Short Radius (1D) & Long Radius (1.5D), 15mm–300mm NB, ANSI B16.9. Oil & gas, water, chemical. Direct manufacturer. PAN India. Call +91 83558 15350.",
-        "image":["https://isengineeringco.in/assets/images/ms-elbow.webp"],
-        "brand":{"@type":"Brand","name":"I.S. Engineering Co."},
-        "manufacturer":{"@type":"Organization","name":"I.S. Engineering Co.","url":"https://isengineeringco.in/"},
-        "material":"IS:2062 Mild Steel",
-        "offers":{"@type":"Offer","url":"https://isengineeringco.in/elbow-fittings.html","priceCurrency":"INR","availability":"https://schema.org/InStock","areaServed":{"@type":"Country","name":"India"}}
-      }
-    ]
-  }
-  </script>
+}</script>
 </head>
 <body>
   <div class="topbar">
