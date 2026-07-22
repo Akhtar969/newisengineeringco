@@ -555,19 +555,5 @@
   </div>
 
   <script src="js/script.js"></script>
-  <script>
-    /* Back to top */
-    window.addEventListener('scroll',function(){var b=document.getElementById('back-top');if(b)b.classList.toggle('show',scrollY>300)});
-    var bt=document.getElementById('back-top');if(bt)bt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
-    /* Fade in */
-    var obs=new IntersectionObserver(function(e){e.forEach(function(en){if(en.isIntersecting){en.target.classList.add('visible');obs.unobserve(en.target)}})},{threshold:.08});
-    document.querySelectorAll('.fade-in').forEach(function(el){obs.observe(el)});
-    /* FAQ accordion */
-    document.querySelectorAll('.faq-q').forEach(function(q){q.addEventListener('click',function(){var i=this.closest('.faq-item'),o=i.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(function(x){x.classList.remove('open')});if(!o)i.classList.add('open')})});
-    /* Product detail tabs */
-    document.querySelectorAll('.pd-tab').forEach(function(t){t.addEventListener('click',function(){document.querySelectorAll('.pd-tab').forEach(function(x){x.classList.remove('active');x.setAttribute('aria-selected','false')});document.querySelectorAll('.pd-tab-panel').forEach(function(x){x.classList.remove('active')});this.classList.add('active');this.setAttribute('aria-selected','true');var p=document.getElementById('panel-'+this.dataset.panel);if(p)p.classList.add('active')})});
-    /* Thumbnail switcher */
-    function changeImg(el,src,alt){document.getElementById('pd-main-img-el').src=src;document.getElementById('pd-main-img-el').alt=alt;document.querySelectorAll('.pd-thumb').forEach(function(t){t.classList.remove('active')});el.classList.add('active')}
-  </script>
 </body>
 </html>

@@ -111,6 +111,36 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
+  /* ── PRODUCT DETAIL TABS ── */
+  document.querySelectorAll('.pd-tab').forEach(function (t) {
+    t.addEventListener('click', function () {
+      document.querySelectorAll('.pd-tab').forEach(function (x) {
+        x.classList.remove('active');
+        x.setAttribute('aria-selected', 'false');
+      });
+      document.querySelectorAll('.pd-tab-panel').forEach(function (x) {
+        x.classList.remove('active');
+      });
+      this.classList.add('active');
+      this.setAttribute('aria-selected', 'true');
+      var p = document.getElementById('panel-' + this.dataset.panel);
+      if (p) p.classList.add('active');
+    });
+  });
+
+  /* ── PRODUCT THUMBNAIL IMAGE SWITCHER ── */
+  window.changeImg = function (el, src, alt) {
+    var mainImg = document.getElementById('pd-main-img-el');
+    if (mainImg) {
+      mainImg.src = src;
+      mainImg.alt = alt || '';
+    }
+    document.querySelectorAll('.pd-thumb').forEach(function (t) {
+      t.classList.remove('active');
+    });
+    if (el) el.classList.add('active');
+  };
+
   /* ── FAQ ACCORDION ── */
   document.querySelectorAll('.faq-item').forEach(function (item) {
     const q = item.querySelector('.faq-q');
