@@ -12,6 +12,7 @@
   <meta name="geo.placename" content="Darukhana, Mumbai, Maharashtra, India">
   <link rel="canonical" href="https://isengineeringco.in/e-table-flanges.html">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" href="favicon.ico.png">
 
   <!-- Open Graph -->
   <meta property="og:type" content="product">
@@ -32,7 +33,7 @@
 
   <!-- Product Detail Page Extra Styles (inline, no CSS file change) -->
   <style>
-    /* ── PRODUCTS DROPDOWN NAV ── */
+    /* â”€â”€ PRODUCTS DROPDOWN NAV â”€â”€ */
     .nav-has-dropdown{position:relative}
     .nav-dropdown{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%) translateY(-6px);background:#fff;border:1px solid var(--border);border-radius:8px;box-shadow:0 8px 32px rgba(0,0,0,.13);min-width:260px;z-index:999;opacity:0;visibility:hidden;transition:opacity .22s,transform .22s,visibility .22s;padding:8px 0}
     .nav-has-dropdown:hover .nav-dropdown,.nav-has-dropdown:focus-within .nav-dropdown{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
@@ -53,7 +54,7 @@
     .mobile-dropdown a{font-size:.82rem;padding:6px 10px;color:#555;display:block;text-decoration:none}
     .mobile-dropdown a:hover{color:var(--green)}
     .mobile-dropdown span{font-size:.68rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--grey-mid);padding:6px 10px 4px;display:block}
-    /* ── PRODUCT DETAIL LAYOUT ── */
+    /* â”€â”€ PRODUCT DETAIL LAYOUT â”€â”€ */
     .pd-hero { background: var(--grey-light); padding: 48px 0 0; }
     .pd-hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
     .pd-images { position: sticky; top: 90px; }
@@ -64,7 +65,7 @@
     .pd-thumb:hover, .pd-thumb.active { border-color: var(--green); }
     .pd-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-    /* ── RIGHT PANEL ── */
+    /* â”€â”€ RIGHT PANEL â”€â”€ */
     .pd-info { padding-bottom: 48px; }
     .pd-category-tag { display: inline-block; background: var(--green-pale); color: var(--green); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 12px; border-radius: 20px; border: 1px solid rgba(91,142,29,0.25); margin-bottom: 12px; }
     .pd-info h1 { font-family: var(--font-head); font-size: clamp(1.7rem, 2.8vw, 2.4rem); font-weight: 800; text-transform: uppercase; letter-spacing: 0.03em; color: var(--dark); line-height: 1.15; margin-bottom: 8px; }
@@ -74,7 +75,7 @@
     .pd-trust-pill svg { width: 13px; height: 13px; fill: var(--green); flex-shrink: 0; }
     .pd-desc { font-size: 0.94rem; color: #555; line-height: 1.8; margin-bottom: 22px; }
 
-    /* ── QUICK SPECS TABLE ── */
+    /* â”€â”€ QUICK SPECS TABLE â”€â”€ */
     .pd-quickspecs { background: white; border-radius: var(--radius); border: 1px solid var(--border); overflow: hidden; margin-bottom: 22px; }
     .pd-quickspecs-title { background: var(--dark); color: white; font-family: var(--font-head); font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; padding: 10px 16px; }
     .pd-qs-row { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid var(--border); }
@@ -82,21 +83,21 @@
     .pd-qs-key { padding: 9px 16px; font-size: 0.82rem; font-weight: 600; color: var(--grey-mid); background: var(--grey-light); border-right: 1px solid var(--border); }
     .pd-qs-val { padding: 9px 16px; font-size: 0.82rem; font-weight: 700; color: var(--dark); }
 
-    /* ── CTA BUTTONS ── */
+    /* â”€â”€ CTA BUTTONS â”€â”€ */
     .pd-cta-group { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; }
     .pd-cta-group .btn { font-size: 0.88rem; padding: 11px 22px; }
     .pd-wa-btn { display: flex; align-items: center; gap: 8px; background: #25D366; color: white; border: none; border-radius: var(--radius); padding: 11px 20px; font-size: 0.88rem; font-weight: 700; cursor: pointer; text-decoration: none; transition: background 0.2s; }
     .pd-wa-btn:hover { background: #1ebe5d; color: white; }
     .pd-wa-btn svg { width: 18px; height: 18px; fill: white; flex-shrink: 0; }
 
-    /* ── SECTION TABS ── */
+    /* â”€â”€ SECTION TABS â”€â”€ */
     .pd-tabs { border-bottom: 2px solid var(--border); display: flex; gap: 0; margin-bottom: 32px; overflow-x: auto; }
     .pd-tab { font-family: var(--font-head); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 13px 22px; border: none; background: none; cursor: pointer; color: var(--grey-mid); border-bottom: 3px solid transparent; margin-bottom: -2px; white-space: nowrap; transition: color 0.2s, border-color 0.2s; }
     .pd-tab.active, .pd-tab:hover { color: var(--green); border-bottom-color: var(--green); }
     .pd-tab-panel { display: none; }
     .pd-tab-panel.active { display: block; }
 
-    /* ── FULL SPEC TABLE ── */
+    /* â”€â”€ FULL SPEC TABLE â”€â”€ */
     .full-spec-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; background: white; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); }
     .full-spec-table thead tr { background: var(--dark); color: white; }
     .full-spec-table thead th { padding: 11px 14px; font-family: var(--font-head); font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; text-align: left; }
@@ -106,7 +107,7 @@
     .full-spec-table tbody td { padding: 9px 14px; color: var(--dark); }
     .full-spec-table tbody td:first-child { font-weight: 700; color: var(--green); }
 
-    /* ── COMPARISON TABLE ── */
+    /* â”€â”€ COMPARISON TABLE â”€â”€ */
     .compare-table { width: 100%; border-collapse: collapse; font-size: 0.84rem; background: white; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); }
     .compare-table th { background: var(--dark); color: white; padding: 10px 14px; font-family: var(--font-head); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; text-align: left; }
     .compare-table th:first-child { background: var(--green); }
@@ -117,7 +118,7 @@
     .tick { color: #2e7d32; font-weight: 700; }
     .cross { color: #c62828; }
 
-    /* ── APPLICATION CARDS ── */
+    /* â”€â”€ APPLICATION CARDS â”€â”€ */
     .app-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
     .app-card { background: white; border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 18px; transition: box-shadow 0.2s, transform 0.2s; }
     .app-card:hover { box-shadow: 0 4px 18px rgba(0,0,0,0.09); transform: translateY(-2px); }
@@ -125,22 +126,22 @@
     .app-card h4 { font-family: var(--font-head); font-size: 0.95rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; color: var(--dark); }
     .app-card p { font-size: 0.82rem; color: var(--grey-mid); line-height: 1.6; margin: 0; }
 
-    /* ── RELATED PRODUCTS ── */
+    /* â”€â”€ RELATED PRODUCTS â”€â”€ */
     .related-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
 
-    /* ── INLINE HIGHLIGHT BOX ── */
+    /* â”€â”€ INLINE HIGHLIGHT BOX â”€â”€ */
     .highlight-box { background: var(--green-pale); border-left: 4px solid var(--green); border-radius: 0 var(--radius) var(--radius) 0; padding: 16px 20px; margin: 18px 0; }
     .highlight-box h4 { font-size: 0.9rem; font-weight: 700; color: var(--green); margin-bottom: 6px; }
     .highlight-box p, .highlight-box ul { font-size: 0.87rem; color: #555; margin: 0; line-height: 1.7; }
     .highlight-box ul { padding-left: 18px; }
 
-    /* ── INFO BOXES ── */
+    /* â”€â”€ INFO BOXES â”€â”€ */
     .info-3col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0; }
     .info-box { background: white; border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; text-align: center; }
     .info-box .info-num { font-family: var(--font-head); font-size: 2rem; font-weight: 800; color: var(--green); display: block; line-height: 1; margin-bottom: 4px; }
     .info-box .info-lbl { font-size: 0.8rem; color: var(--grey-mid); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
 
-    /* ── RESPONSIVE ── */
+    /* â”€â”€ RESPONSIVE â”€â”€ */
     @media (max-width: 960px) {
       .pd-hero-grid { grid-template-columns: 1fr; }
       .pd-images { position: static; }
@@ -673,13 +674,13 @@
                 </tr>
               </thead>
               <tbody>
-                <tr><td>15mm (½")</td><td>95</td><td>16</td><td>65</td><td>4</td><td>14mm</td><td>M12</td><td>12mm</td><td>35mm</td></tr>
-                <tr><td>20mm (¾")</td><td>105</td><td>21</td><td>75</td><td>4</td><td>14mm</td><td>M12</td><td>14mm</td><td>43mm</td></tr>
+                <tr><td>15mm (Â½")</td><td>95</td><td>16</td><td>65</td><td>4</td><td>14mm</td><td>M12</td><td>12mm</td><td>35mm</td></tr>
+                <tr><td>20mm (Â¾")</td><td>105</td><td>21</td><td>75</td><td>4</td><td>14mm</td><td>M12</td><td>14mm</td><td>43mm</td></tr>
                 <tr><td>25mm (1")</td><td>115</td><td>27</td><td>85</td><td>4</td><td>14mm</td><td>M12</td><td>14mm</td><td>51mm</td></tr>
-                <tr><td>32mm (1¼")</td><td>140</td><td>34</td><td>100</td><td>4</td><td>18mm</td><td>M16</td><td>16mm</td><td>64mm</td></tr>
-                <tr><td>40mm (1½")</td><td>150</td><td>43</td><td>110</td><td>4</td><td>18mm</td><td>M16</td><td>16mm</td><td>73mm</td></tr>
+                <tr><td>32mm (1Â¼")</td><td>140</td><td>34</td><td>100</td><td>4</td><td>18mm</td><td>M16</td><td>16mm</td><td>64mm</td></tr>
+                <tr><td>40mm (1Â½")</td><td>150</td><td>43</td><td>110</td><td>4</td><td>18mm</td><td>M16</td><td>16mm</td><td>73mm</td></tr>
                 <tr><td>50mm (2")</td><td>165</td><td>54</td><td>125</td><td>4</td><td>18mm</td><td>M16</td><td>16mm</td><td>92mm</td></tr>
-                <tr><td>65mm (2½")</td><td>185</td><td>70</td><td>145</td><td>4</td><td>18mm</td><td>M16</td><td>18mm</td><td>105mm</td></tr>
+                <tr><td>65mm (2Â½")</td><td>185</td><td>70</td><td>145</td><td>4</td><td>18mm</td><td>M16</td><td>18mm</td><td>105mm</td></tr>
                 <tr><td>80mm (3")</td><td>200</td><td>84</td><td>160</td><td>8</td><td>18mm</td><td>M16</td><td>18mm</td><td>118mm</td></tr>
                 <tr><td>100mm (4")</td><td>220</td><td>106</td><td>180</td><td>8</td><td>18mm</td><td>M16</td><td>18mm</td><td>140mm</td></tr>
                 <tr><td>125mm (5")</td><td>250</td><td>131</td><td>210</td><td>8</td><td>18mm</td><td>M16</td><td>20mm</td><td>165mm</td></tr>
@@ -705,10 +706,10 @@
                 <thead><tr><th>Property</th><th>Specification</th></tr></thead>
                 <tbody>
                   <tr><td>Material Grade</td><td>IS:2062 Mild Steel (MS)</td></tr>
-                  <tr><td>Tensile Strength</td><td>410–530 N/mm² (IS:2062 Grade E250)</td></tr>
-                  <tr><td>Yield Strength</td><td>≥ 250 N/mm²</td></tr>
-                  <tr><td>Elongation</td><td>≥ 23%</td></tr>
-                  <tr><td>Carbon (max)</td><td>0.23% (Thickness ≤ 25mm)</td></tr>
+                  <tr><td>Tensile Strength</td><td>410–530 N/mmÂ² (IS:2062 Grade E250)</td></tr>
+                  <tr><td>Yield Strength</td><td>â‰¥ 250 N/mmÂ²</td></tr>
+                  <tr><td>Elongation</td><td>â‰¥ 23%</td></tr>
+                  <tr><td>Carbon (max)</td><td>0.23% (Thickness â‰¤ 25mm)</td></tr>
                   <tr><td>Surface Finish</td><td>3.2 Ra – 6.3 Ra (Machined Face)</td></tr>
                   <tr><td>Face Type</td><td>Flat Face (FF)</td></tr>
                 </tbody>
@@ -858,27 +859,27 @@
                 </tr>
                 <tr>
                   <td>Indian Standard Use</td>
-                  <td><span class="tick">✓ Mandatory for IS projects</span></td>
-                  <td><span class="tick">✓ Used widely</span></td>
-                  <td><span class="cross">✗ Usually ANSI standard</span></td>
-                  <td><span class="tick">✓ Used widely</span></td>
-                  <td><span class="cross">✗ ANSI standard</span></td>
+                  <td><span class="tick">âœ“ Mandatory for IS projects</span></td>
+                  <td><span class="tick">âœ“ Used widely</span></td>
+                  <td><span class="cross">âœ— Usually ANSI standard</span></td>
+                  <td><span class="tick">âœ“ Used widely</span></td>
+                  <td><span class="cross">âœ— ANSI standard</span></td>
                 </tr>
                 <tr>
                   <td>Water Supply / Sewage</td>
-                  <td><span class="tick">✓ Primary choice</span></td>
-                  <td><span class="cross">✗ Not applicable</span></td>
-                  <td><span class="cross">✗ Rarely used</span></td>
-                  <td><span class="tick">✓ Sometimes used</span></td>
-                  <td><span class="cross">✗ Not applicable</span></td>
+                  <td><span class="tick">âœ“ Primary choice</span></td>
+                  <td><span class="cross">âœ— Not applicable</span></td>
+                  <td><span class="cross">âœ— Rarely used</span></td>
+                  <td><span class="tick">âœ“ Sometimes used</span></td>
+                  <td><span class="cross">âœ— Not applicable</span></td>
                 </tr>
                 <tr>
                   <td>High Pressure Service</td>
-                  <td><span class="cross">✗ Max PN16 (16 bar)</span></td>
-                  <td><span class="tick">✓ All pressure classes</span></td>
-                  <td><span class="tick">✓ Best for high pressure</span></td>
-                  <td><span class="cross">✗ Low-medium pressure</span></td>
-                  <td><span class="tick">✓ Class 3000/6000</span></td>
+                  <td><span class="cross">âœ— Max PN16 (16 bar)</span></td>
+                  <td><span class="tick">âœ“ All pressure classes</span></td>
+                  <td><span class="tick">âœ“ Best for high pressure</span></td>
+                  <td><span class="cross">âœ— Low-medium pressure</span></td>
+                  <td><span class="tick">âœ“ Class 3000/6000</span></td>
                 </tr>
                 <tr>
                   <td>Cost (Relative)</td>
@@ -941,7 +942,7 @@
             </div>
             <div class="faq-item fade-in">
               <div class="faq-q"><h4>What material are your E Table Flanges manufactured from?</h4><span class="faq-tog">+</span></div>
-              <div class="faq-ans"><div class="faq-ans-inner"><p>I.S. Engineering Co.'s E Table Flanges are manufactured from <strong>IS:2062 Grade E250 Mild Steel</strong> — India's standard structural steel grade. This provides tensile strength of 410–530 N/mm², yield strength ≥ 250 N/mm² and elongation ≥ 23% — suitable for all water, sewage and industrial process piping applications. The material is sourced from reputable Indian steel producers and verified before production.</p></div></div>
+              <div class="faq-ans"><div class="faq-ans-inner"><p>I.S. Engineering Co.'s E Table Flanges are manufactured from <strong>IS:2062 Grade E250 Mild Steel</strong> — India's standard structural steel grade. This provides tensile strength of 410–530 N/mmÂ², yield strength â‰¥ 250 N/mmÂ² and elongation â‰¥ 23% — suitable for all water, sewage and industrial process piping applications. The material is sourced from reputable Indian steel producers and verified before production.</p></div></div>
             </div>
             <div class="faq-item fade-in">
               <div class="faq-q"><h4>Do you provide Material Test Certificates for E Table Flanges?</h4><span class="faq-tog">+</span></div>
